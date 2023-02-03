@@ -1,24 +1,23 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import { AiOutlineDownload } from "react-icons/ai";
+import SE from "../assets/SE.jpg";
+import Tilt from "react-parallax-tilt";
 
-import Particle from '../components/Particle'
-import pdf from "../assets/sajib.pdf"
+import Particle from "../components/Particle";
+// import pdf from "../assets/Sagara_Krishantha.pdf";
 
-import { Document, Page, pdfjs } from "react-pdf";
+// import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "react-pdf/dist/esm/Page/TextLayer.css";
-pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+// pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const resumeLink = `https://raw.githubusercontent.com/19sajib/portfolio/main/src/assets/sajib.pdf`
-
+// const resumeLink = `https://raw.githubusercontent.com/19sajib/portfolio/main/src/assets/Sagara_Krishantha.pdf`;
 
 const Resume = () => {
   const [width, setWidth] = useState(1200);
 
   useEffect(() => {
-    
     setWidth(window.innerWidth);
   }, []);
 
@@ -29,35 +28,26 @@ const Resume = () => {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
+            href="https://drive.google.com/file/d/1kcCscHwFEl1NfJP_ARCVWivTAoNWD1ea/view?usp=share_link"
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
-            <AiOutlineDownload />
-            &nbsp;Download Resume
+            &nbsp;View CV
           </Button>
         </Row>
 
-        <Row className="resume">
-          <Document file={resumeLink} className="d-flex justify-content-center">
-            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
-          </Document>
-        </Row>
-
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button
-            variant="primary"
-            href={pdf}
-            target="_blank"
-            style={{ maxWidth: "250px" }}
-          >
-            <AiOutlineDownload />
-            &nbsp;Download Resume
-          </Button>
-        </Row>
+        <center>
+          <Col md={5} className="myAvtar">
+            <Tilt>
+              <center>
+                <img src={SE} className="img-fluid" alt="avatar" />
+              </center>
+            </Tilt>
+          </Col>
+        </center>
       </Container>
     </div>
-  )
-}
+  );
+};
 
-export default Resume
+export default Resume;

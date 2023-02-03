@@ -4,9 +4,10 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiHeroku,
-  SiVercel,
-  SiNetlify
+  SiIntellijidea,
+  SiInsomnia,
 } from "react-icons/si";
+import { FaAws } from "react-icons/fa";
 
 const Toolstack = () => {
   return (
@@ -15,19 +16,22 @@ const Toolstack = () => {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiIntellijidea />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiInsomnia />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNetlify />
+        <FaAws />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiHeroku />
       </Col>
     </Row>
   );
-}
+};
 
 export default Toolstack;

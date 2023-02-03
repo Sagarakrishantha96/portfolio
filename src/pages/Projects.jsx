@@ -2,11 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
-import pg from "../assets/projects/pg.png";
-import project from "../assets/projects/project.jpeg";
-import lift from "../assets/projects/lift.png";
-import krypto from "../assets/projects/krypto.png";
-import kickstart from "../assets/projects/kickstart.png";
+
+import BookingApp from "../assets/projects/BookingApp.png";
+import E_commerceApp from "../assets/projects/E_commerceApp.png";
+import Netflix_clone from "../assets/projects/Netflix_clone.jpg";
+import DeltaMAX_AdminPanel from "../assets/projects/DeltaMAX_AdminPanel.png";
+import Tiktok_clone from "../assets/projects/Tiktok_clone.jpg";
+import Tinder_clone from "../assets/projects/Tinder_clone.jpg";
 
 const Projects = () => {
   return (
@@ -20,64 +22,63 @@ const Projects = () => {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card" >
             <ProjectCard
-              imgPath={lift}
+              imgPath={BookingApp}
               isBlog={false}
-              title="Lift-Buddy"
-              description="This online ride-sharing platform boasts a responsive front-end design, complete with an admin panel built using React and Material-UI. With the integration of Google Maps API, users can easily access directions on the map. The platform allows for full CURD functionality on profiles and posts, and users can confirm or cancel a ride from a post and message each other after confirmation. Additionally, users can easily reset their password. The back-end is powered by a Node Express server and utilizes MongoDB for the database management."
-              ghLink="https://github.com/19sajib/lift-buddy"
+              title="Booking App"
+              description="This is MERN stack hotel reservation app project. React Node.js MongoDB full-stack app using Context API, JWT, custom hooks, and React calendar.It allows users to reserve a room, check in or check out of their rooms, views the status of their reservations, track expenses, and much more. Hotel booking software has many features that can be used to make the entire process easy for both hotels and customers."
+              ghLink="https://github.com/Sagarakrishantha96/Bookingapp"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={project}
+              imgPath={E_commerceApp}
               isBlog={false}
-              title="Social Media"
-              description="This platform features a responsive interface built with Reactjs and CSS, allowing users to easily manage their profiles and posts through CRUD activities. The option to follow other users and interact with their posts (like or dislike) is also available, with suggestions for new users to follow. Users can only view posts from their followed users and can only engage in chat with those they follow. The backend is powered by Nodejs and Expressjs server, while MongoDB is utilized as the database."
-              ghLink="https://github.com/19sajib/social-media"
+              title="E-commerce App"
+              description="This e-commerce website utilizes a REST API built with Nodejs and Expressjs, allowing for easy CRUD operations on user profiles, and products. The user interface is designed for efficient product management and includes a complete purchase process. Stripe API is integrated to handle customer payments. The website uses  Firebase as the database."
+              ghLink="https://github.com/Sagarakrishantha96/react-redux"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={kickstart}
+              imgPath={Netflix_clone} 
               isBlog={false}
-              title="E‑Commerce Website"
-              description="This ecommerce website utilizes a REST API built with Nodejs and Expressjs, allowing for easy CRUD operations on user profiles, products and admin panel. The user interface is designed for efficient product management and includes a complete purchase process. The admin panel, accessible for CRUD on users and products, includes a chart for statistics display. Stripe API is integrated to handle customer payments. The website uses MongoDB and Firebase as the database."
-              ghLink="https://github.com/19sajib/mern-stack-ecommerce"
+              title="Netflix-clone App"
+              description="The project is a clone of the popular streaming service Netflix, built using React, Firebase, and Material-UI. The goal of the project is to replicate the functionality and user experience of Netflix, allowing users to watch an extensive selection of TV shows, movies, anime, documentaries, and other content on their internet-connected devices. The use of Firebase provides the necessary backend infrastructure, while Material-UI is used to create a visually appealing and intuitive user interface."
+              ghLink="https://github.com/Sagarakrishantha96/Netflix-clone"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={pg}
+              imgPath={DeltaMAX_AdminPanel}
               isBlog={false}
-              title="Blog Website"
-              description="This blogging application features a RESTful API server built with Nodejs and Expressjs. The data is retrieved from the API server and displayed on a user-friendly interface designed using React, Redux, and styled-components for a seamless experience."
-              ghLink="https://github.com/19sajib/mern-blog-app"
+              title="DeltaMAX APP"
+              description="The Delta Max app is a web application with an Admin Panel that uses React, Node.js, and MongoDB. The Admin Panel allows CRUD operations and is used to design and manage fitness challenges for the Delta Max app. The challenges are based on users' fitness activities such as steps, calories burned, and exercises, and the results are calculated as NFTs."
+              ghLink="https://github.com/Sagarakrishantha96/Delta-max-fitness-admin-panel"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={krypto}
+              imgPath={Tiktok_clone}
               isBlog={false}
-              title="Project Krypto"
-              description="Project Krypto is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It allows users to interact with their Metamask wallet and send Ethereum."
-              ghLink="https://github.com/19sajib/Project-Krypto-Web-3.0"
-              demoLink="https://project-krypto.netlify.app/"
+              title="Tiktok-clone App"
+              description="The project is a clone of the popular social media platform TikTok, built using React, Firebase, and Material-UI. The goal of the project is to replicate the functionality and user experience of TikTok, allowing users to create, share, and discover short videos. Firebase provides the necessary backend infrastructure, while Material-UI is used to create a visually appealing and intuitive user interface."
+              ghLink="https://github.com/Sagarakrishantha96/Tiktok-app-clone"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={kickstart}
+              imgPath={Tinder_clone}
               isBlog={false}
-              title="Solidity Kickstart"
-              description="Solidity Kickstart is a Web 3 project that utilizes an Ethereum smart contract created using Solidity. It includes all the functionality of a kickstart platform, enabling users to interact with their Metamask wallet, transfer Ethereum and participate in kickstart campaigns."
-              ghLink="https://github.com/19sajib/Solidity-Kickstart"
+              title="Tinder-clone App"
+              description="The project is a clone of the popular dating platform Tinder, built using React, Firebase, and Material-UI. Tinder is a global online dating platform where you can meet new people, expand your social network, or meet locals in 190+ countries. The use of Firebase provides the necessary backend infrastructure, while Material-UI is used to create a visually appealing and intuitive user interface."
+              ghLink="https://github.com/Sagarakrishantha96/Tinder-app"
             />
           </Col>
         </Row>

@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.dad28378.css",
-    "main.js": "/static/js/main.9d092ef3.js",
-    "static/media/my.png": "/static/media/my.6aa79a3229eddb5f8d6b.png",
-    "static/media/BookingApp.png": "/static/media/BookingApp.f7ebe4546ffee6040f8b.png",
-    "static/media/E_commerceApp.png": "/static/media/E_commerceApp.48688614dc2339ce82ec.png",
-    "static/media/Netflix_clone.jpg": "/static/media/Netflix_clone.65068dfa0f40bc49e84f.jpg",
-    "static/media/Tiktok_clone.jpg": "/static/media/Tiktok_clone.1def563ea31788a0f0b7.jpg",
-    "static/media/Tinder_clone.jpg": "/static/media/Tinder_clone.af1d07e0b047ea93b7f2.jpg",
-    "static/media/DeltaMAX_AdminPanel.png": "/static/media/DeltaMAX_AdminPanel.8ee03732c70e0b247699.png",
-    "static/media/SE.jpg": "/static/media/SE.ecf1da72919ce9b114f9.jpg",
-    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
-    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
-    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
-    "index.html": "/index.html",
-    "main.dad28378.css.map": "/static/css/main.dad28378.css.map",
-    "main.9d092ef3.js.map": "/static/js/main.9d092ef3.js.map"
+    "main.css": "/portfolio/static/css/main.7b50861e.css",
+    "main.js": "/portfolio/static/js/main.28335882.js",
+    "static/media/my.png": "/portfolio/static/media/my.6aa79a3229eddb5f8d6b.png",
+    "static/media/BookingApp.png": "/portfolio/static/media/BookingApp.f7ebe4546ffee6040f8b.png",
+    "static/media/E_commerceApp.png": "/portfolio/static/media/E_commerceApp.48688614dc2339ce82ec.png",
+    "static/media/Netflix_clone.jpg": "/portfolio/static/media/Netflix_clone.65068dfa0f40bc49e84f.jpg",
+    "static/media/Tiktok_clone.jpg": "/portfolio/static/media/Tiktok_clone.1def563ea31788a0f0b7.jpg",
+    "static/media/Tinder_clone.jpg": "/portfolio/static/media/Tinder_clone.af1d07e0b047ea93b7f2.jpg",
+    "static/media/DeltaMAX_AdminPanel.png": "/portfolio/static/media/DeltaMAX_AdminPanel.8ee03732c70e0b247699.png",
+    "static/media/SE.jpg": "/portfolio/static/media/SE.ecf1da72919ce9b114f9.jpg",
+    "static/media/about.png": "/portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/home-bg.jpg": "/portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/pre.svg": "/portfolio/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/portfolio/index.html",
+    "main.7b50861e.css.map": "/portfolio/static/css/main.7b50861e.css.map",
+    "main.28335882.js.map": "/portfolio/static/js/main.28335882.js.map"
   },
   "entrypoints": [
-    "static/css/main.dad28378.css",
-    "static/js/main.9d092ef3.js"
+    "static/css/main.7b50861e.css",
+    "static/js/main.28335882.js"
   ]
 }

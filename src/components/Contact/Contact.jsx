@@ -2,7 +2,9 @@ import React,{useState, useRef} from 'react'
 import emailjs from "@emailjs/browser";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from 'react-bootstrap/Button';
-import './Contact.css'
+import './Contact.css';
+import ContactMe from "../../assets/Contact.png";
+import Tilt from "react-parallax-tilt";
 
 const Contact = () => {
     const form = useRef();
@@ -47,7 +49,7 @@ const Contact = () => {
 
     return(
         <Container style={{paddingTop: '50px'}} >
-            <Row >
+            {/* <Row >
             <Col md={6} className="c-left" >
             <h1 >Get in Touch</h1>
             <h1 className="yellow">Contact me</h1>
@@ -62,7 +64,16 @@ const Contact = () => {
                 <span className='done'>{done && "Thanks for Contacting me"}</span>
                 </form>
             </Col>
-            </Row>
+            </Row> */}
+            <center>
+          <Col md={5} className="myAvtar">
+            <Tilt>
+              <center>
+                <img src={ContactMe} className="img-fluid" alt="avatar" />
+              </center>
+            </Tilt>
+          </Col>
+        </center>
         </Container>
     )
 }

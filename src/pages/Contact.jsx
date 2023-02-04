@@ -8,8 +8,8 @@ const Contact = () => {
   return (
     <Container style={{padding: '60px'}}>
       <Particle />
-      <ContactForm />
       <Social />
+      <ContactForm />
     </Container>
   )
 }
